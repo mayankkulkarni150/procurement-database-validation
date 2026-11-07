@@ -61,8 +61,8 @@ The remaining 13 purchase orders were classified as matched.
 
 | File | Description |
 |---|---|
-| 01_database_creation.sql | Creates the procurement database |
-| 02_table_creation.sql | Creates the database tables |
+| 01_database_setup.sql | Creates the procurement database |
+| 02_create_tables.sql | Creates the database tables |
 | 03_insert_suppliers.sql | Inserts sample supplier and procurement data |
 | 04_sql_analysis.sql | Contains SQL analysis and validation queries |
 
@@ -70,12 +70,12 @@ The remaining 13 purchase orders were classified as matched.
 
 1. Install MySQL.
 2. Open MySQL Workbench or another MySQL client.
-3. Execute `01_database_creation.sql`.
-4. Execute `02_table_creation.sql`.
+3. Execute `01_database_setup.sql`.
+4. Execute `02_create_tables.sql`.
 5. Execute `03_insert_suppliers.sql`.
 6. Execute `04_sql_analysis.sql`.
 7. Review the query outputs and reconciliation results.
-
+   
 ## Conclusion
 
 This project demonstrates practical SQL skills in relational database management, procurement data analysis, data quality checks and financial reconciliation.
